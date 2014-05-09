@@ -1,0 +1,2 @@
+Implement the ADT dictionary by using hashing and separate chaining. Use the ADT list 
+for each bucket instead of a chain of linked nodes. What implementation of the list would be reasonable?
