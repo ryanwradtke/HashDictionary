@@ -73,9 +73,9 @@ public class ADTHashDict<K, V> implements DictInterface<K, V> {
                 rehash();
                 add(key, value);
             } else {
-                System.out.println("**Too many instances of key " + key
-                        + "\n**Maximum load factor set to " + maxLoadFactor);
                 returnValue = null;
+                throw new UnsupportedOperationException("**Too many instances of key " + key
+                        + "\n**Maximum load factor set to " + maxLoadFactor);
             }
 
         } else {
