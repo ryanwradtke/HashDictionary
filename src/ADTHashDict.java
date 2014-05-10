@@ -340,7 +340,7 @@ public class ADTHashDict<K, V> implements DictInterface<K, V> {
 
         @Override
         public void remove() {
-            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+            throw new UnsupportedOperationException("Not supported.");
         }
     }
 
