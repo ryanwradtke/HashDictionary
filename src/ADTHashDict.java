@@ -74,8 +74,6 @@ public class ADTHashDict<K, V> implements DictInterface<K, V> {
                 add(key, value);
             } else {
                 returnValue = null;
-                throw new UnsupportedOperationException("**Too many instances of key " + key
-                        + "\n**Maximum load factor set to " + maxLoadFactor);
             }
 
         } else {

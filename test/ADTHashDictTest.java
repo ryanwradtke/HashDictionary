@@ -81,7 +81,11 @@ public class ADTHashDictTest {
         prntDict(directory);
 
         //testing Max Load Factor, cannot have more than 2 of exact key
+
         assertNull(directory.add(324, "Simons"));
+
+
+        
 
         prntDict(directory);
         
